@@ -1,23 +1,7 @@
 /* Place CSS styles here */
 
-
-
-
 main {
     display: grid;
-    grid-template-columns: minmax(10vw, 40vw) -webkit-max-content -webkit-min-content;
-    grid-template-rows: 3vh auto 1fr -webkit-min-content auto 0.5vh;
-    
-}
-
-.title_1 {
-    display: grid;
-    grid-template-columns: minmax(10vw, 40vw) -webkit-max-content -webkit-min-content;
-    grid-template-rows: 3vh auto 1fr -webkit-min-content auto 0.5vh;
-}
-
-h1 {
-    font-family:"neue-haas-grotesk-display", sans-serif; 
-    font-size: 900 pt;
-    font-style: normal;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 2fr);
 }
