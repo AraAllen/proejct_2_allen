@@ -112,8 +112,35 @@ body {
     font-size: 100pt;
     font-weight: 100;
     font-style: normal;
+    font-display: thin;
     line-height: 0.75;
     position: absolute;
     top: 777pt;
     left: 626pt;
 }
+
+.first_year {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    line-height: 1;
+    writing-mode: vertical-rl;
+}
+.max {
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    line-height: 0;
+    writing-mode: vertical-rl;
+}
+
+h1 {
+    font-family: "neue_haas_grotesk_display", sans-serif;
+    font-size: 50pt;
+    font-weight: 600;
+    font-style: normal;
+    font-display: thin;
+
+}
+
