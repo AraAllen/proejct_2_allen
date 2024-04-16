@@ -1,7 +1,14 @@
 /* Place CSS styles here */
 
-main {
+body {
+    font-family: "neue_haas_grotesk_display", sans-serif;
+}
+
+.container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(10, 2fr);
+    grid-template-rows: repeat(16,120px);
+    gap: 0;
+    background-color: aquamarine;
+
 }
