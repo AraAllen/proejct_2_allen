@@ -66,3 +66,33 @@ body {
     left: 128.5pt;
     opacity: 60%;
 }
+
+.a {
+    font-size: 150pt;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0.75;
+    position: absolute;
+    top: 367pt;
+    left: 464pt;
+}
+
+.a2 {
+    font-size: 150pt;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0.75;
+    position: absolute;
+    top: 367pt;
+    left: 560pt;
+}
+
+.s {
+    font-size: 150pt;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0.75;
+    position: absolute;
+    top: 367pt;
+    left: 645pt;
+}
